@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Project - NFL Player News"
-date:       2019-01-09 05:43:38 +0000
+date:       2019-01-09 00:43:39 -0500
 permalink:  cli_project_-_nfl_player_news
 ---
 
