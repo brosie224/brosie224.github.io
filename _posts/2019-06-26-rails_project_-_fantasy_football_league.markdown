@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project - Fantasy Football League"
-date:       2019-06-27 02:57:39 +0000
+date:       2019-06-26 22:57:40 -0400
 permalink:  rails_project_-_fantasy_football_league
 ---
 
@@ -14,8 +14,8 @@ Surprisingly, one of the most difficult aspects of this project for me was a ver
 
 ```
 def self.sort_position
-preferred_order = ["QB", "RB", "WR", "TE", "K", "DT"]
-self.all.sort_by {|a| preferred_order.index(a[:position])}
+    preferred_order = ["QB", "RB", "WR", "TE", "K", "DT"]
+    self.all.sort_by { |a| preferred_order.index(a[:position]) }
 end
 ```
 
